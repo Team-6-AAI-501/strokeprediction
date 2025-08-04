@@ -7,6 +7,7 @@ This project aims to develop and evaluate machine learning models for predicting
 
 ---
 ## Folder Structure
+```
 .
 ├── LICENSE
 ├── README.md
@@ -15,7 +16,7 @@ This project aims to develop and evaluate machine learning models for predicting
 │   └── strokeDataSet.csv
 └── jupyternotebook
     └── aai501StrokePrediction.ipynb
-
+```
 ## Project Structure
 
 - `strokeDataSet.csv`: Original dataset containing features such as age, BMI, hypertension, heart disease, and smoking status.
@@ -94,6 +95,7 @@ seaborn
 imblearn
 tensorflow
 keras
+shap
 ```
 
 Install dependencies:
@@ -122,19 +124,19 @@ jupyter notebook aai501StrokePrediction.ipynb
 
 ## Contributors
 - Pros Loung
-    email: ploung@sandiego.edu
-    git: https://github.com/ploung1234
+   - email: ploung@sandiego.edu
+   - git: https://github.com/ploung1234
 - Quang (Andrew) Tran
-    email: andrewtran6789@gmail.com, qtran@sandiego.edu
-    git: https://github.com/Andrew2ndSun
+   - email: andrewtran6789@gmail.com, qtran@sandiego.edu
+   - git: https://github.com/Andrew2ndSun
 - Surya Prakash
-    email:
-    git: https://github.com/prakashsurya-840
+   - email:
+   - git: https://github.com/prakashsurya-840
 
 ## License
 This project is licensed under the MIT License. See LICENSE for details.
 
 ## Acknowledgments
-USD AAI-501 Course (Professor Andrew Van Benschoten)
-Dataset Contributors (https://ieee-dataport.org/documents/stroke-prediction-dataset)
-Team Members (listed above) for their ongoing collaboration and code reviews.
+- USD AAI-501 Course (Professor Andrew Van Benschoten)
+- Dataset Contributors (https://ieee-dataport.org/documents/stroke-prediction-dataset)
+- Team Members (listed above) for their ongoing collaboration and code reviews.
